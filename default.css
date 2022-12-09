@@ -16,6 +16,13 @@
   --buttonColor:black;
 
   --borderThicknessIntro: 1px;
+
+  --badge-text-color: #ffffff;
+  --badge-default-bg: #2c3e50;
+  --badge-info-bg: #3498db;
+  --badge-warning-bg: #f1c40f;
+  --badge-danger-bg: #e74c3c;
+  --badge-success-bg: #2ecc71;
 }
 
 html, body {
@@ -267,7 +274,7 @@ p, li, span, label, input, textarea {
 .thumbnail {
   display: block;
   width: 100%;
-  height:180px;
+  height: 180px;
   object-fit: cover;
 }
 
@@ -351,8 +358,8 @@ p, li, span, label, input, textarea {
 }
 
 
-@media screen and (max-width: 800px){
-  .intro-wrapper{
+@media screen and (max-width: 800px) {
+  .intro-wrapper {
     grid-template-columns: 1fr;
     grid-template-areas: 
       'nav-wrapper'
@@ -360,7 +367,7 @@ p, li, span, label, input, textarea {
       'right-column'
     ;   }
 
-	.right-column{
+	.right-column {
 		justify-content: center;
 	}
 
@@ -375,9 +382,57 @@ ul {
   list-style: none;
 }
 
-h1 { font-size: 56px;}
-h2 { font-size: 36px;}
-h3 { font-size: 28px;}
-h4 { font-size: 24px;}
-h5 { font-size: 20px;}
-h6 { font-size: 16px;}
+h1 { font-size: 56px; }
+h2 { font-size: 36px; }
+h3 { font-size: 28px; }
+h4 { font-size: 24px; }
+h5 { font-size: 20px; }
+h6 { font-size: 16px; }
+
+
+.badge {
+    box-sizing: border-box;
+    display: inline-block;
+    background-color: var(--badge-default-bg);
+    color: var(--badge-text-color);
+    
+    border-radius: 3rem;
+    text-align: center;
+
+    font-size: 1.6rem;
+    font-weight: 400;
+    padding: .05rem .8rem .1rem;
+    line-height: inherit;
+}
+
+.badge--line {
+    background-color: transparent;
+    color: #95a5a6;
+    box-shadow: 0 0 0 1px #95a5a6;
+}
+
+.badge--info {
+    background-color: var(--badge-info-bg);
+}
+
+.badge--warning {
+    background-color: var(--badge-warning-bg);
+}
+
+.badge--danger {
+    background-color: var(--badge-danger-bg);
+}
+
+.badge--success {
+    background-color: var(--badge-success-bg);
+}
+
+.badge--small {
+    font-size: 1.2rem;
+    padding: .1rem .65rem .2rem;
+}
+
+.badge--smaller {
+    font-size: .7rem;
+    padding: .05rem .4rem .15rem;
+}
