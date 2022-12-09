@@ -333,6 +333,11 @@ p, li, span, label, input, textarea {
   background-color: var(--previewShadow);
 }
 
+.footer-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
 @media screen and (max-width: 1200px) {
   .main-container {
     width: 95%;
