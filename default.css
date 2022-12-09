@@ -14,6 +14,8 @@
 
 
   --buttonColor:black;
+
+  --borderThicknessIntro: 1px;
 }
 
 html, body {
@@ -65,7 +67,7 @@ p, li, span, label, input, textarea {
   ;
 
   background-color: var(--secondaryColor);
-  border: 1px solid var(--borderColor);
+  border: var(--borderThicknessIntro) solid var(--borderColor);
   border-radius: 5px 5px 0 0;
 
   -webkit-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
@@ -81,7 +83,7 @@ p, li, span, label, input, textarea {
 
   background-color: var(--mainColor);
   border-radius: 5px 5px 0 0;
-  border-bottom: 1px solid var(--borderColor);
+  border-bottom: var(--borderThicknessIntro) solid var(--borderColor);
 }
 
 #navigation {
@@ -165,8 +167,8 @@ p, li, span, label, input, textarea {
   background-color: #192734;
 }
 
-#green-mode{
-  background-color: #78866b;
+#neon-mode{
+  background-color: #37e47f;
 }
 
 #purple-mode{
@@ -256,7 +258,7 @@ p, li, span, label, input, textarea {
 }
 
 .post{
-  border:1px solid var(--borderColor);
+  border: 1px solid var(--borderColor);
   -webkit-box-shadow: -2px 7px 21px -9px rgba(0,0,0,0.75);
   -moz-box-shadow: -2px 7px 21px -9px rgba(0,0,0,0.75);
   box-shadow: -2px 7px 21px -9px rgba(0,0,0,0.75);

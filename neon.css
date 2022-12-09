@@ -1,0 +1,33 @@
+:root{
+  --mainColor:#37e47f;
+  --secondaryColor:rgb(226, 206, 34);
+
+  --borderColor:#161914;
+
+  --mainText: black;
+  --secondaryText: white;
+
+  --themeDotBorder:#FFF;
+
+  --previewBg:rgb(81, 90, 72, 0.8);
+  --previewShadow:#2a2f25;
+
+
+  --buttonColor:#3884ef;
+
+}
+
+.intro-wrapper {
+  -webkit-box-shadow: 4px 5px 0px 7px #000000; 
+  box-shadow: 4px 5px 0px 7px #000000;
+}
+
+.post {
+  -webkit-box-shadow: 4px 5px 0px 7px #000000; 
+  box-shadow: 4px 5px 0px 7px #000000;
+}
+
+#contact-form {
+  -webkit-box-shadow: 4px 5px 0px 7px #000000; 
+  box-shadow: 4px 5px 0px 7px #000000;
+}
