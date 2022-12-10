@@ -365,11 +365,12 @@ p, li, span, label, input, textarea {
       'nav-wrapper'
       'left-column'
       'right-column'
-    ;   }
+    ;
+}
 
-	.right-column {
-		justify-content: center;
-	}
+  .right-column {
+    justify-content: center;
+  }
 
 }
 
